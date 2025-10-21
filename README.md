@@ -1,11 +1,11 @@
-# 🧾 Python FTP Server (Configurable)
+# Python FTP Server (Configurable)
 
 A lightweight and configurable **FTP Server** built using [`pyftpdlib`](https://github.com/giampaolo/pyftpdlib).  
 This project allows you to share files over a local or remote network with configurable settings using a `config.ini` file.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Customizable **username**, **password**, **port**, and **shared folder**
 - Optional **anonymous read-only access**
@@ -14,7 +14,7 @@ This project allows you to share files over a local or remote network with confi
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ftp-server/
@@ -26,7 +26,7 @@ ftp-server/
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - `pyftpdlib` package
@@ -39,7 +39,7 @@ pip install pyftpdlib
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit the `config.ini` file to set your preferences:
 
@@ -62,7 +62,7 @@ ALLOW_ANONYMOUS = true
 
 ---
 
-## 🚀 Running the Server
+## Running the Server
 
 Run the FTP server with:
 
@@ -80,16 +80,16 @@ Anonymous access: Enabled
 
 ---
 
-## 🧩 Connecting to the FTP Server
+## Connecting to the FTP Server
 
 You can connect using:
 
-### 🖥️ Command Line (macOS/Linux/Windows)
+### Command Line (macOS/Linux/Windows)
 ```bash
 ftp localhost 2121
 ```
 
-### 🗂️ FTP Client (e.g., FileZilla)
+### FTP Client (e.g., FileZilla)
 - **Host:** localhost  
 - **Port:** 2121  
 - **Username:** admin  
@@ -97,18 +97,18 @@ ftp localhost 2121
 
 ---
 
-## 🛑 Stopping the Server
+## Stopping the Server
 
 Press **Ctrl + C** in the terminal to stop the FTP server.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Running on port `21` requires **root/admin privileges** — prefer `2121`.
 - Make sure your **firewall allows the chosen port**.
 - Avoid using weak passwords when exposing the server to external networks.
 
-## 📜 License
+## License
 
 This project is open-source and available for personal or educational use.
